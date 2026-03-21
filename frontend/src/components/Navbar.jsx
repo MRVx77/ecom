@@ -34,6 +34,15 @@ const Navbar = () => {
         <img src={assets.logo} className="w-36" alt="Logo" />
       </Link>
 
+      <a
+        href="https://ecom-seven-gules.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="sm:w-auto inline-block px-1 py-2 text-sm md:text-base font-medium bg-gray-600 text-white rounded-lg text-center"
+      >
+        Admin
+      </a>
+
       {/* Desktop Menu */}
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
         {["/", "/collection", "/about", "/contact"].map((path, i) => (
