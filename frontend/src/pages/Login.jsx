@@ -59,6 +59,10 @@ const Login = () => {
         <p className=" prata-regular text-3xl">{currentState}</p>
         <hr className="border-none h-[1.5px] w-8 bg-gray-800" />
       </div>
+      <p className="text-sm font-bold text-gray-600 gap-0">
+        For Tester user email: test@gmail.com
+      </p>
+      <p className="text-sm font-bold text-gray-600 gap-0">Pass: 12345678</p>
       {currentState === "Login" ? (
         ""
       ) : (
@@ -88,8 +92,12 @@ const Login = () => {
         required
       />
       <div className="w-full flex justify-between text-sm -mt-2">
-
-        <p onClick={() => navigate("/forgot-password")} className="cursor-pointer">Forget your password</p>
+        <p
+          onClick={() => navigate("/forgot-password")}
+          className="cursor-pointer"
+        >
+          Forget your password
+        </p>
 
         {currentState === "Login" ? (
           <p
