@@ -35,7 +35,7 @@ const Navbar = () => {
       </Link>
 
       <a
-        href="https://ecom-seven-gules.vercel.app/"
+        href="https://ecommerce-app-admin-beige.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
         className="sm:w-auto inline-block px-1 py-2 text-sm md:text-base font-medium bg-gray-600 text-white rounded-lg text-center"
